@@ -1,4 +1,4 @@
-# Based on Gulp KSS
+# Based on https://github.com/azanebrain/gulp-kss
 
 [Gulp](http://gulpjs.com/) [KSS](http://warpspire.com/kss/) integration with [SASS](http://sass-lang.com/) and [Live Reload](http://livereload.com/)
 
