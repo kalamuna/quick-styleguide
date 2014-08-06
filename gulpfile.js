@@ -1,7 +1,7 @@
 var gulp   = require('gulp'),
 		compass = require('gulp-compass'),
 		clean = require('gulp-clean'),
-    gulpsass = require('gulp-kss'),
+    gulpsass = require('gulp-sass'),
 		gulpkss = require('gulp-kss'),
 		livereload = require('gulp-livereload'),
 		lr = require('tiny-lr'),
