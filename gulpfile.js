@@ -1,6 +1,7 @@
 var gulp   = require('gulp'),
 		compass = require('gulp-compass'),
 		clean = require('gulp-clean'),
+    gulpsass = require('gulp-kss'),
 		gulpkss = require('gulp-kss'),
 		livereload = require('gulp-livereload'),
 		lr = require('tiny-lr'),
@@ -38,17 +39,17 @@ gulp.task('kss', function () {
 });
 
 // Watch and livereload
-gulp.task('watch', function() { 
-  // Listen on port 35729
-  server.listen(35729, function (err) {
+gulp.task('watch', function() {
+  // Listen on port 9000
+  server.listen(9000, function (err) {
 	if (err) {
 	  return console.log(err)
 	};
 
  	gulp.watch(['demo/**/*'], ['kss']);
- 
+
   }); //server.listen()
- 
+
 });
 
 gulp.task('default', ['kss']);

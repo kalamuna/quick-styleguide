@@ -1,10 +1,8 @@
-# Gulp KSS
+# Based on Gulp KSS
 
 [Gulp](http://gulpjs.com/) [KSS](http://warpspire.com/kss/) integration with [SASS](http://sass-lang.com/) and [Live Reload](http://livereload.com/)
 
 It utilizes [Gulp-KSS](https://github.com/philj/gulp-kss) and follows the [KSS-Node demo](https://github.com/hughsk/kss-node) but with sass instead of less
-
-[Live Demo](http://azanebrain.github.io/gulp-kss/)
 
 ## Instructions
 
@@ -13,6 +11,7 @@ Clone the repo
 cd to the directory
 
 Install the node modules with `npm install`
+Then `bower install`
 
 Generate the styleguide with the default gulp command.
 
